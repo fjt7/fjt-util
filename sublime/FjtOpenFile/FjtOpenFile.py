@@ -27,3 +27,6 @@ class FjtOpenFileCommand(sublime_plugin.TextCommand):
             path = self.generate_path(lineContents)
             if os.path.exists(path):
                 self.view.window().open_file(path)
+
+# abcdefg
+# xyz
