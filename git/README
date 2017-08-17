@@ -1,0 +1,2 @@
+* user.email は ~/.gitconfig.local に記述します。
+* 'git p' は http://qiita.com/tkengo/items/5bae50fb7531d5a6bbcf を真似しました。感謝。

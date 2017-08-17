@@ -1,0 +1,15 @@
+[include]
+	path = ~/.gitconfig.local
+[user]
+	name = Akifumi Fujita
+[alias]
+	b = branch
+	c = checkout
+	cb = checkout -b
+	l = log
+	p = !git push origin `git rev-parse --abbrev-ref HEAD`
+	s = status
+[color]
+	ui = auto
+[core]
+	editor = emacs
