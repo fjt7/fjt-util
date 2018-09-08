@@ -9,6 +9,7 @@
 	l = log
 	p = !git push origin `git rev-parse --abbrev-ref HEAD`
 	s = status
+	u = submodule update --init --recusive
 [color]
 	ui = auto
 [core]
